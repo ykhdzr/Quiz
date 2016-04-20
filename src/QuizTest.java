@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.*;
 
 /**
  * Created by ykhdzr on 4/12/16.
@@ -25,12 +25,36 @@ public class QuizTest {
     }
 
     @Test
-    public void testSwapNumber() {
-        NumberGroup numberGroup = new NumberGroup();
-        numberGroup.setA(2);
-        numberGroup.setB(5);
+    public void testIsAnagram() {
+        assertFalse(Quiz.isAnagram("arm", "mary"));
+        assertTrue(Quiz.isAnagram("", ""));
+        assertTrue(Quiz.isAnagram("word", "wrdo"));
+        assertTrue(Quiz.isAnagram("mary", "army"));
+        assertTrue(Quiz.isAnagram("stop", "tops"));
+        assertTrue(Quiz.isAnagram("boat", "btoa"));
+        assertFalse(Quiz.isAnagram("pure", "in"));
+        assertFalse(Quiz.isAnagram("fill", "fil"));
+        assertFalse(Quiz.isAnagram("b", "bbb"));
+        assertFalse(Quiz.isAnagram("ccc", "ccccccc"));
+        assertTrue(Quiz.isAnagram("a", "a"));
+        assertFalse(Quiz.isAnagram("sleep", "slep"));
+        assertFalse(Quiz.isAnagram(null, "Ryme"));
+    }
 
-        assertEquals(5, Quiz.swapNumber(numberGroup).getA());
-        assertEquals(2, Quiz.swapNumber(numberGroup).getB());
+    @Test
+    public void testIsPalindrome() {
+        assertTrue(Quiz.isPalindrome("tamat"));
+        assertTrue(Quiz.isPalindrome(""));
+        assertTrue(Quiz.isPalindrome("katak"));
+        assertTrue(Quiz.isPalindrome("makam"));
+        assertTrue(Quiz.isPalindrome("malam"));
+        assertFalse(Quiz.isPalindrome("bobo"));
+        assertTrue(Quiz.isPalindrome("radar"));
+        assertFalse(Quiz.isPalindrome(null));
+    }
+
+    @Test
+    public void testSwapNumber() {
+
     }
 }

@@ -6,16 +6,18 @@ public class Quiz {
     }
 
     public static String fizzBuzz(int input) {
-        String result = "";
-        return result;
+        return null;
     }
 
     public static String reverseString(String input) {
-        String result = "";
-        return result;
+        return null;
     }
 
-    public static NumberGroup swapNumber(NumberGroup numberGroup) {
-        return numberGroup;
+    public static boolean isAnagram(String expect, String target) {
+        return false;
+    }
+
+    public static boolean isPalindrome(String word) {
+        return false;
     }
 }
