@@ -60,7 +60,7 @@ public class QuizTest {
 
     @Test
     public void testObjectReferences() {
-        String[] resArr = {*//* your answer here *//*};
+        String[] resArr = {"d", "a", "b", "e"};
         List<String> result = Arrays.asList(resArr);
 
         assertEquals(result, MyClass.getResult());
