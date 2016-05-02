@@ -6,8 +6,8 @@ import java.util.List;
  */
 public class MyClass {
 
-    List<String> list1 = new ArrayList<String>();
-    List<String> list2 = new ArrayList<String>();
+    List<String> list1 = new ArrayList<>();
+    List<String> list2 = new ArrayList<>();
 
     public List<String> method(List<String> list) {
         list.add("a");
