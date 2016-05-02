@@ -1,5 +1,8 @@
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.List;
+
 import static junit.framework.Assert.*;
 
 /**
@@ -56,5 +59,13 @@ public class QuizTest {
     @Test
     public void testSwapNumber() {
 
+    }
+
+    @Test
+    public void testObjectReferences() {
+        String[] resArr = {/* your answer here */};
+        List<String> result = Arrays.asList(resArr);
+
+        assertEquals(result, MyClass.getResult());
     }
 }
