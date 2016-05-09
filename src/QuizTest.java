@@ -68,4 +68,22 @@ public class QuizTest {
 
         assertEquals(result, MyClass.getResult());
     }
+
+    @Test
+    public void testShowingList(){
+        /*
+        * 1. Clone Repo
+        * 2. Hit API [put api here]
+        * 3. Show in a list
+        * */
+    }
+
+    @Test
+    public void testDebugging(){
+        /*
+        * 1. Please run Koneksee project
+        * 2. Cannot go to next screen
+        * 3. Please debug
+        * */
+    }
 }
