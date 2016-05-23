@@ -86,4 +86,13 @@ public class QuizTest {
         * 3. Please debug
         * */
     }
+
+    @Test
+    public void testGit(){
+        /*
+        * 1. What git pull does ?
+        * 2. What git pull --rebase does ?
+        * 3. Git Merge vs Git Rebase ?
+        * */
+    }
 }
