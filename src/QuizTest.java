@@ -1,8 +1,5 @@
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.List;
-
 import static junit.framework.Assert.*;
 
 /**
@@ -56,43 +53,58 @@ public class QuizTest {
         assertFalse(Quiz.isPalindrome(null));
     }
 
-    @Test
+    /*@Test
     public void testSwapNumber() {
 
     }
 
     @Test
     public void testObjectReferences() {
-        String[] resArr = {/* your answer here */};
+        String[] resArr = {*//* your answer here *//*};
         List<String> result = Arrays.asList(resArr);
 
         assertEquals(result, MyClass.getResult());
     }
 
     @Test
-    public void testShowingList(){
-        /*
+    public void testShowingList() {
+        *//*
         * 1. Clone Repo
         * 2. Hit API [put api here]
         * 3. Show in a list
-        * */
+        * *//*
     }
 
     @Test
-    public void testDebugging(){
-        /*
+    public void testDebugging() {
+        *//*
         * 1. Please run Koneksee project
         * 2. Cannot go to next screen
         * 3. Please debug
-        * */
+        * *//*
     }
 
     @Test
-    public void testGit(){
-        /*
+    public void testGit() {
+        *//*
         * 1. What git pull does ?
         * 2. What git pull --rebase does ?
         * 3. Git Merge vs Git Rebase ?
-        * */
+        * *//*
     }
+
+    @Test
+    public void testRecyclerViewVsListView() {
+        *//*
+        * differences between RecyclerView vs ListView
+         *//*
+    }
+
+    @Test
+    public void testAndroidVM() {
+        *//*
+        * 1. differences between ART vs Dalvik
+        * 2. How to check running system is ART or Dalvik
+                *//*
+    }*/
 }
