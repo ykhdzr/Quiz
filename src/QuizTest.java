@@ -104,7 +104,10 @@ public class QuizTest {
     public void testAndroidVM() {
         *//*
         * 1. differences between ART vs Dalvik
+        *    a. Ahead-Of-Time vs JIT compiler
+        *    b. ART install time more tighter
         * 2. How to check running system is ART or Dalvik
+        *    a. ART when System.getProperty("java.vm.version") is 2.0.0 or higher
                 *//*
     }*/
 }
